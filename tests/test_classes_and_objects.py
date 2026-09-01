@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from tests.load_exercise import load_exercise
 
 exercise_01 = load_exercise("classes_and_objects", "exercise_01")
@@ -52,3 +57,9 @@ def test_exercise_06_rectangle_area():
     assert exercise_06.Rectangle(3, 4).area() == 12
     assert exercise_06.Rectangle(2, 5).area() == 10
     assert exercise_06.Rectangle(0, 9).area() == 0
+
+
+if __name__ == "__main__":
+    import pytest
+
+    raise SystemExit(pytest.main([__file__, "-v"]))

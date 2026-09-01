@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from tests.load_exercise import load_exercise
 
 exercise_01 = load_exercise("collections", "exercise_01")
@@ -45,3 +50,9 @@ def test_exercise_06_collection_methods():
 
     assert exercise_06.with_added({1, 2}, 3) == {1, 2, 3}
     assert exercise_06.with_added(set(), "x") == {"x"}
+
+
+if __name__ == "__main__":
+    import pytest
+
+    raise SystemExit(pytest.main([__file__, "-v"]))

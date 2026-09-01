@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from tests.load_exercise import load_exercise
 
 exercise_01 = load_exercise("functions", "exercise_01")
@@ -42,3 +47,9 @@ def test_exercise_06_scope():
     local_value = exercise_06.read_local_x()
     assert local_value is not None, "read_local_x() is not implemented yet"
     assert local_value != 10, "local x should be different from the global x"
+
+
+if __name__ == "__main__":
+    import pytest
+
+    raise SystemExit(pytest.main([__file__, "-v"]))

@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from tests.load_exercise import load_exercise
 
 exercise_01 = load_exercise("variables_and_data_types", "exercise_01")
@@ -47,3 +52,9 @@ def test_exercise_06_example_values():
     assert type(decimal) is float
     assert type(text) is str
     assert type(flag) is bool
+
+
+if __name__ == "__main__":
+    import pytest
+
+    raise SystemExit(pytest.main([__file__, "-v"]))

@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from tests.load_exercise import load_exercise
 
 exercise_01 = load_exercise("conditionals", "exercise_01")
@@ -52,3 +57,9 @@ def test_exercise_06_matches():
     assert exercise_06.matches(0) is False
     assert exercise_06.matches(10) is False
     assert exercise_06.matches(50) is False
+
+
+if __name__ == "__main__":
+    import pytest
+
+    raise SystemExit(pytest.main([__file__, "-v"]))

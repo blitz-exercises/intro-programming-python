@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 from tests.load_exercise import load_exercise
 
 exercise_01 = load_exercise("operators", "exercise_01")
@@ -46,3 +51,9 @@ def test_exercise_05_check_membership():
 
 def test_exercise_06_precedence_demo():
     assert exercise_06.precedence_demo() == (14, 20)
+
+
+if __name__ == "__main__":
+    import pytest
+
+    raise SystemExit(pytest.main([__file__, "-v"]))

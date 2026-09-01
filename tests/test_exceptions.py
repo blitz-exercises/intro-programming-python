@@ -1,4 +1,9 @@
+import sys
+from pathlib import Path
+
 import pytest
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from tests.load_exercise import load_exercise
 
@@ -42,3 +47,7 @@ def test_exercise_05_run_with_finally():
 def test_exercise_06_get_error_message():
     assert exercise_06.get_error_message("something went wrong") == "something went wrong"
     assert exercise_06.get_error_message("boom") == "boom"
+
+
+if __name__ == "__main__":
+    raise SystemExit(pytest.main([__file__, "-v"]))
