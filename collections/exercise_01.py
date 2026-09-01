@@ -1,12 +1,17 @@
 """
 Exercise 01: Lists basics
-TODO: Create a list of numbers, use append() to add an element, then print the list.
+TODO: Implement add_item(items, item).
+      Append item to items and return the list.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def add_item(items, item):
+    # TODO: append item and return the list
     pass
+
+
+def main() -> None:
+    print(add_item([1, 2, 3], 4))
 
 
 if __name__ == "__main__":

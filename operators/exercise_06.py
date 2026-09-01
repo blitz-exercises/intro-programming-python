@@ -1,12 +1,18 @@
 """
 Exercise 06: Operator precedence
-TODO: Write expressions that demonstrate operator precedence (e.g. * before +). Use parentheses to change result.
+TODO: Implement precedence_demo().
+      Return a 2-tuple: (2 + 3 * 4, (2 + 3) * 4).
+      First value uses default precedence, second uses parentheses.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def precedence_demo():
+    # TODO: return (2 + 3 * 4, (2 + 3) * 4)
     pass
+
+
+def main() -> None:
+    print(precedence_demo())
 
 
 if __name__ == "__main__":

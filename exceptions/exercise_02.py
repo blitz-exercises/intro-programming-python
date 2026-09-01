@@ -1,12 +1,18 @@
 """
 Exercise 02: Specific exception
-TODO: Use int("invalid") to trigger ValueError. Catch only ValueError and print a message.
+TODO: Implement parse_int(text).
+      Return int(text). If that raises ValueError, return "Invalid number".
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def parse_int(text):
+    # TODO: try int(text), except ValueError
     pass
+
+
+def main() -> None:
+    print(parse_int("42"))
+    print(parse_int("invalid"))
 
 
 if __name__ == "__main__":

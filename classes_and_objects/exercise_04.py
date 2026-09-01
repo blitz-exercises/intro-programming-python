@@ -1,12 +1,30 @@
 """
 Exercise 04: Multiple instances
-TODO: Create two Person instances with different names. Call greet() on each.
+TODO: Define Person with __init__(self, name) and greet(self) -> "Hello, {name}!".
+      Implement create_two_people() so it returns two Person instances with
+      different names.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+class Person:
+    def __init__(self, name):
+        # TODO: set self.name
+        pass
+
+    def greet(self):
+        # TODO: return the greeting
+        pass
+
+
+def create_two_people():
+    # TODO: return two Person instances with different names
     pass
+
+
+def main() -> None:
+    first, second = create_two_people()
+    print(first.greet())
+    print(second.greet())
 
 
 if __name__ == "__main__":

@@ -1,12 +1,18 @@
 """
 Exercise 04: break
-TODO: Loop over a list. Use break to exit when you find a specific value (e.g. "stop").
+TODO: Implement collect_until_stop(items).
+      Loop over items. Append each value until you see "stop", then break.
+      Do not include "stop" in the result.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def collect_until_stop(items):
+    # TODO: return items before "stop"
     pass
+
+
+def main() -> None:
+    print(collect_until_stop(["a", "b", "stop", "c"]))
 
 
 if __name__ == "__main__":

@@ -1,12 +1,17 @@
 """
 Exercise 01: Simple function
-TODO: Define a function greet(name) that takes a name and returns a greeting string like "Hello, name!".
+TODO: Implement greet(name) so it returns "Hello, {name}!".
+      Example: greet("Ada") -> "Hello, Ada!"
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def greet(name):
+    # TODO: return the greeting string
     pass
+
+
+def main() -> None:
+    print(greet("Ada"))
 
 
 if __name__ == "__main__":

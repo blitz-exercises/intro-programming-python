@@ -1,12 +1,17 @@
 """
 Exercise 03: Dictionary basics
-TODO: Create a dict mapping names to ages. Access a value by key and print it.
+TODO: Implement get_age(ages, name).
+      Return the age stored under that name key.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def get_age(ages, name):
+    # TODO: return ages[name]
     pass
+
+
+def main() -> None:
+    print(get_age({"Ada": 36, "Alan": 41}, "Ada"))
 
 
 if __name__ == "__main__":

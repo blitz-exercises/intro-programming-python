@@ -1,12 +1,18 @@
 """
 Exercise 04: Type conversion
-TODO: Convert the string "42" to int and 3.14 to int, print both results.
+TODO: Implement to_int(value) so it converts value to int and returns it.
+      Examples: to_int("42") is 42, to_int(3.14) is 3.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def to_int(value):
+    # TODO: return int(value)
     pass
+
+
+def main() -> None:
+    print(to_int("42"))
+    print(to_int(3.14))
 
 
 if __name__ == "__main__":

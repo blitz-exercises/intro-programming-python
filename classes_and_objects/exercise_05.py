@@ -1,12 +1,24 @@
 """
 Exercise 05: Instance attributes
-TODO: Add an age attribute to Person. Add a method to update age. Create instance and demonstrate.
+TODO: Define Person with __init__(self, name, age) and have_birthday(self).
+      have_birthday() increases age by 1.
 """
 
 
+class Person:
+    def __init__(self, name, age):
+        # TODO: set self.name and self.age
+        pass
+
+    def have_birthday(self):
+        # TODO: increment self.age by 1
+        pass
+
+
 def main() -> None:
-    # TODO: Implement your solution here
-    pass
+    person = Person("Ada", 36)
+    person.have_birthday()
+    print(person.name, person.age)
 
 
 if __name__ == "__main__":

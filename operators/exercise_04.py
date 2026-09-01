@@ -1,12 +1,19 @@
 """
 Exercise 04: Assignment operators
-TODO: Start with a variable x = 10. Use +=, -=, *= and print x after each operation.
+TODO: Implement apply_assignments(x).
+      Apply += 5, then -= 3, then *= 2.
+      Return a list with x after each of those three operations.
+      Example: apply_assignments(10) -> [15, 12, 24]
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def apply_assignments(x):
+    # TODO: mutate x with +=, -=, *= and collect the values
     pass
+
+
+def main() -> None:
+    print(apply_assignments(10))
 
 
 if __name__ == "__main__":

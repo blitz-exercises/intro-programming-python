@@ -1,12 +1,17 @@
 """
 Exercise 06: enumerate
-TODO: Use enumerate() on a list to get index and value. Print both for each element.
+TODO: Implement indexed_items(items).
+      Use enumerate() and return a list of (index, value) tuples.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def indexed_items(items):
+    # TODO: return [(0, first), (1, second), ...]
     pass
+
+
+def main() -> None:
+    print(indexed_items(["a", "b", "c"]))
 
 
 if __name__ == "__main__":

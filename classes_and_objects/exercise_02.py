@@ -1,12 +1,18 @@
 """
 Exercise 02: __init__
-TODO: Add __init__ to Person to set name when creating an instance.
+TODO: Define Person so __init__(self, name) stores name on the instance.
 """
 
 
+class Person:
+    def __init__(self, name):
+        # TODO: set self.name
+        pass
+
+
 def main() -> None:
-    # TODO: Implement your solution here
-    pass
+    person = Person("Ada")
+    print(person.name)
 
 
 if __name__ == "__main__":

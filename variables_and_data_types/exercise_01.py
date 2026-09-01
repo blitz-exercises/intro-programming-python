@@ -1,12 +1,18 @@
 """
 Exercise 01: Basic int and float
-TODO: Create variables for age (int) and height (float), then print them with their types using type().
+TODO: Implement get_age_and_height() so it returns an int age and a float height.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def get_age_and_height():
+    # TODO: return (age, height) — age must be int, height must be float
     pass
+
+
+def main() -> None:
+    age, height = get_age_and_height()
+    print(age, type(age))
+    print(height, type(height))
 
 
 if __name__ == "__main__":

@@ -1,12 +1,17 @@
 """
 Exercise 04: Tuple unpacking
-TODO: Create a tuple with two or three values and unpack them into separate variables.
+TODO: Implement unpack(values).
+      Unpack a 3-tuple into three variables and return them as a tuple.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def unpack(values):
+    # TODO: a, b, c = values; return a, b, c
     pass
+
+
+def main() -> None:
+    print(unpack((1, 2, 3)))
 
 
 if __name__ == "__main__":

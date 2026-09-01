@@ -1,12 +1,16 @@
 """
 Exercise 02: Parameters
-TODO: Create a function add(a, b) that takes two numbers and returns their sum.
+TODO: Implement add(a, b) so it returns the sum of a and b.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def add(a, b):
+    # TODO: return a + b
     pass
+
+
+def main() -> None:
+    print(add(2, 3))
 
 
 if __name__ == "__main__":

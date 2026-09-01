@@ -1,12 +1,17 @@
 """
 Exercise 03: Logical
-TODO: Use and, or, and not with boolean values. Print the results of combined expressions.
+TODO: Implement logical(a, b).
+      Return (a and b, a or b, not a) in that order.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def logical(a, b):
+    # TODO: return the three boolean results
     pass
+
+
+def main() -> None:
+    print(logical(True, False))
 
 
 if __name__ == "__main__":

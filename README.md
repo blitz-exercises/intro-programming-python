@@ -6,9 +6,28 @@ A basic Python learning project covering core programming concepts through hands
 
 - Python 3.8 or higher
 
-## How to Run Exercises
+```bash
+pip install -r requirements.txt
+```
 
-From the project root:
+## How to check your work
+
+From the project root (`intro-programming-python/`):
+
+```bash
+pytest
+```
+
+Green means that exercise is correct. Red means it is not done yet, or the return value does not match the contract in the docstring.
+
+Run one package or one test:
+
+```bash
+pytest tests/test_functions.py
+pytest tests/test_functions.py::test_exercise_03_square
+```
+
+## How to Run Exercises
 
 ```bash
 python -m variables_and_data_types.exercise_01

@@ -1,12 +1,17 @@
 """
 Exercise 05: Set uniqueness
-TODO: Create a list with duplicate values. Convert to a set and print to show unique values only.
+TODO: Implement unique(items).
+      Convert the list to a set and return it (duplicates removed).
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def unique(items):
+    # TODO: return a set of unique values
     pass
+
+
+def main() -> None:
+    print(unique([1, 2, 2, 3, 3, 3]))
 
 
 if __name__ == "__main__":

@@ -1,12 +1,17 @@
 """
 Exercise 02: Comparison
-TODO: Compare two numbers using <, >, ==, and !=. Print the boolean results.
+TODO: Implement compare(a, b).
+      Return (a < b, a > b, a == b, a != b) in that order.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def compare(a, b):
+    # TODO: return the four boolean results
     pass
+
+
+def main() -> None:
+    print(compare(3, 5))
 
 
 if __name__ == "__main__":

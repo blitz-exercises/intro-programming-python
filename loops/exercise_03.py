@@ -1,12 +1,17 @@
 """
 Exercise 03: while loop
-TODO: Use a while loop to count down from 5 to 0, printing each number.
+TODO: Implement countdown().
+      Use a while loop to count down from 5 to 0 (inclusive) and return that list.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def countdown():
+    # TODO: return [5, 4, 3, 2, 1, 0] using while
     pass
+
+
+def main() -> None:
+    print(countdown())
 
 
 if __name__ == "__main__":

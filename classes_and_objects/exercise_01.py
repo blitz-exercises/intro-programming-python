@@ -1,12 +1,19 @@
 """
 Exercise 01: Simple class
-TODO: Define a Person class with a name attribute. Create an instance and print the name.
+TODO: Define Person with a name attribute set in __init__ (no arguments besides self).
+      name must be a non-empty string.
 """
 
 
+class Person:
+    def __init__(self):
+        # TODO: set self.name to a string
+        pass
+
+
 def main() -> None:
-    # TODO: Implement your solution here
-    pass
+    person = Person()
+    print(person.name)
 
 
 if __name__ == "__main__":

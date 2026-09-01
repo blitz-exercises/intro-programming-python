@@ -1,12 +1,18 @@
 """
 Exercise 05: Membership
-TODO: Use 'in' and 'not in' to check if a value exists in a list and in a string.
+TODO: Implement check_membership(value, container).
+      Return (value in container, value not in container).
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def check_membership(value, container):
+    # TODO: return (in_result, not_in_result)
     pass
+
+
+def main() -> None:
+    print(check_membership("a", "cat"))
+    print(check_membership(9, [1, 2, 3]))
 
 
 if __name__ == "__main__":

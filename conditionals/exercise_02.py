@@ -1,12 +1,18 @@
 """
 Exercise 02: if-else
-TODO: Check if a number is even or odd. Print the appropriate message for each case.
+TODO: Implement even_or_odd(n).
+      Return "even" if n is even, otherwise "odd".
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def even_or_odd(n):
+    # TODO: return "even" or "odd"
     pass
+
+
+def main() -> None:
+    print(even_or_odd(4))
+    print(even_or_odd(7))
 
 
 if __name__ == "__main__":

@@ -1,12 +1,17 @@
 """
 Exercise 05: Multiple returns
-TODO: Write a function min_max(a, b) that returns the smaller and larger of two numbers as a tuple.
+TODO: Implement min_max(a, b) so it returns (smaller, larger) as a tuple.
 """
 
 
-def main() -> None:
-    # TODO: Implement your solution here
+def min_max(a, b):
+    # TODO: return (min, max)
     pass
+
+
+def main() -> None:
+    print(min_max(3, 8))
+    print(min_max(9, 1))
 
 
 if __name__ == "__main__":
