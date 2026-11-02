@@ -5,12 +5,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from tests.load_exercise import load_exercise
 
-exercise_01 = load_exercise("collections", "exercise_01")
-exercise_02 = load_exercise("collections", "exercise_02")
-exercise_03 = load_exercise("collections", "exercise_03")
-exercise_04 = load_exercise("collections", "exercise_04")
-exercise_05 = load_exercise("collections", "exercise_05")
-exercise_06 = load_exercise("collections", "exercise_06")
+exercise_01 = load_exercise("data_collections", "exercise_01")
+exercise_02 = load_exercise("data_collections", "exercise_02")
+exercise_03 = load_exercise("data_collections", "exercise_03")
+exercise_04 = load_exercise("data_collections", "exercise_04")
+exercise_05 = load_exercise("data_collections", "exercise_05")
+exercise_06 = load_exercise("data_collections", "exercise_06")
 
 
 def test_exercise_01_add_item():

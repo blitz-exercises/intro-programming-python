@@ -45,7 +45,7 @@ python variables_and_data_types/exercise_01.py
 |---------|--------|
 | `variables_and_data_types` | int, float, str, bool, type(), type conversion, None |
 | `functions` | def, parameters, return, default args, scope |
-| `collections` | list, dict, tuple, set; indexing, slicing, methods |
+| `data_collections` | list, dict, tuple, set; indexing, slicing, methods |
 | `operators` | arithmetic, comparison, logical, assignment, membership |
 | `conditionals` | if/elif/else, nested conditions, ternary |
 | `loops` | for, while, range(), break, continue, enumerate |
